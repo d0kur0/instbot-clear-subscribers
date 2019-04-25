@@ -4,10 +4,10 @@ module.exports = async (page, SELECTOR, DESCRIPTION) => {
 
   await page.mainFrame().waitForSelector(SELECTOR)
     .then(() => {
-      logger.success(`Элемент: "${DESCRITPION}" отрисован`);
+      logger.success(`Элемент: "${DESCRIPTION}" отрисован`);
     })
     .catch(() => {
-      logger.error(`Элемент: "${DESCRITPION}" не был отрисован`);
+      logger.error(`Элемент: "${DESCRIPTION}" не был отрисован`);
     });
 
   await page.click(SELECTOR)
