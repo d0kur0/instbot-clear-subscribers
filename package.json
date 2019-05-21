@@ -1,0 +1,25 @@
+{
+  "name": "instbot-clear-subscribers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "pending-xhr-puppeteer": "^2.0.0",
+    "puppeteer": "^1.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d0kur0/instbot-clear-subscribers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d0kur0/instbot-clear-subscribers/issues"
+  },
+  "homepage": "https://github.com/d0kur0/instbot-clear-subscribers#readme"
+}
